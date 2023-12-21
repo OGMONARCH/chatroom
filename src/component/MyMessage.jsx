@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const MyMessage = ({message}) => {
+const MyMessage = ({message}) => {
     //Overall this helps to render images. If our message is an image
     //Here I am simply checking if the message sent is either a text or an image
     if(message?.attachments?.length > 0){
@@ -20,3 +20,4 @@ export const MyMessage = ({message}) => {
   )
 }
 
+export default MyMessage;

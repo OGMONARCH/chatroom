@@ -1,8 +1,7 @@
 import React from 'react'
-import ChatFeed from './components/ChatFeed';
+import ChatFeed from './component/ChatFeed';
 import { ChatEngine } from 'react-chat-engine';
-import ChatFeed from './components/ChatFeed';
-import LoginForm from './components/LoginForm';
+import LoginForm from './component/LoginForm';
 import './App.css';
 
 const App = () => {

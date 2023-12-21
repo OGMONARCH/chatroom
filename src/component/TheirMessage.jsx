@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const TheirMessage = ({ lastMessage, message }) => {
+const TheirMessage = ({ lastMessage, message }) => {
     const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username;
   return (
     <div className="message-row">
@@ -27,3 +27,5 @@ export const TheirMessage = ({ lastMessage, message }) => {
     </div>
   )
 }
+
+export default  TheirMessage;
